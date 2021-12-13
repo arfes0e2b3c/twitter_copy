@@ -1,0 +1,296 @@
+body{
+  margin: 0;
+  background-color: #15202b;
+  display:flex;
+}
+i{
+  color:rgba(255,255,255,0.8);
+  font-size: 1.8em;
+  padding: 15px;
+}
+header{
+  width: 285px;
+  height: 100vh;
+  margin-left: 75px;
+}
+.fa-twitter{
+  margin-left: 20px;
+}
+.header-tabs{
+  display: flex;
+  flex-flow: column;
+}
+.header-tab{
+  margin-left: 20px;
+  display: flex;
+  color: white;
+}
+.header-tab-icon{
+  width: 66px;
+  align-items: center;
+  text-align: center;
+}
+.header-tab p{
+  font-size: 1.3em;
+  margin: 0;
+  padding: 13.4px 0;
+  height: 32px;
+}
+.header-tweet{
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 20px auto;
+  background-color: rgb(29, 155, 240);
+  text-align: center;
+}
+.header-tweet p{
+  margin: 13px auto;
+  color: white;
+  font-weight: bold;
+}
+.header-icon{
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  color: white;
+}
+.header-icon img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.header-icon h3{
+  margin: 0 10px;
+}
+.header-icon p{
+  margin: 0 10px;
+  opacity: 0.4;
+}
+.header-icon i{
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+.main{
+  width: 600px;
+  height: 100vh;
+}
+.main-header-title{
+  width: 100%;
+  height: 53px;
+  border: 1.5px solid #444;
+  border-top: none;
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header-title p{
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 16px;
+}
+.main-header-content{
+  width: calc(100% - 32px);
+  height: 104px;
+  padding: 8px 16px;
+  color: white;
+  border: 1.5px solid #444;
+}
+.main-header-tweet{
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.main-header-tweet img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.main-header-tweet p{
+  font-size: 1.4em;
+  padding: 0;
+  margin-left: 10px;
+  opacity: 0.4;
+}
+.main-header-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 48px;
+  align-items: center;
+}
+.main-header-icons .icons i{
+  color: rgb(29, 155, 240);
+  font-size: 1.4em;
+}
+.main-header-icons .header-tweet{
+  margin: 0 10px;
+  height: 36px;
+  width: 126px;
+  opacity: 0.4;
+}
+.main-header-icons .header-tweet p{
+  margin: 6px 0;
+}
+.tweet-container{
+  width: 100%;
+  height: 90vh;
+}
+.tweet{
+  width: calc(100% - 32px);
+  height:　100px;
+  padding: 12px 16px;
+  border: 1.5px solid #444;
+  border-top: none;
+  display: flex;
+  color:white;
+}
+.tweet img{
+  width: 48px;
+  height: 48px;
+  border-radius: 24px 24px 24px 24px;
+  margin-right: 10px;
+}
+.tweet-main{
+  width:450px;
+}
+.user-name{
+  display: flex;
+  align-items: center;
+}
+.user-name h3{
+  margin: 0;
+}
+.user-name i{
+  font-size: 1.3em;
+  color: white;
+  padding: 0;
+  margin: 0 2px;
+}
+.user-name p{
+  opacity: 0.4;
+  margin: 0;
+  margin-left: 5px;
+}
+.sentence p{
+  margin: 0;
+}
+.tweet .icons{
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 0.7em;
+  opacity: 0.4;
+}
+.tweet .icons i{
+  padding: 0;
+}
+.detail{
+  margin-left: 30px;
+  width: 34px;
+  text-align: center;
+}
+.detail i{
+  font-size: 1em;
+  padding: 0;
+  opacity: 0.4;
+}
+
+.sidebar{
+  width: 350px;
+  height: 100vh;
+  margin-left: 30px;
+}
+.search{
+  width:calc(100% -30px);
+  height: 45px;
+  margin: 5px 15px 12px;
+  background-color: #25303b;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.search i{
+  font-size: 1.2em;
+  opacity: 0.4;
+}
+.search p{
+  opacity: 0.4;
+}
+.sidebar h2{
+  font-size: 1.4em;
+  color: white;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.news{
+  width:calc(100% -30px);
+  margin: 10px 15px;
+  color: white;
+  display: flex;
+}
+.news p{
+  margin: 0;
+}
+.news .tag, .news .trend{
+  font-size: 0.8em;
+  opacity: 0.4;
+}
+.news .title{
+  font-weight: bold;
+  margin: 3px 0;
+}
+.news img{
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+}
+.user{
+  width: calc(100% -30px);
+  height: 48px;
+  padding: 12px 15px;
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+}
+.user img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.user .username p{
+  margin: 0;
+}
+.bold{
+  font-weight: bold;
+}
+.gray{
+  opacity: 0.4;
+}
+.follow{
+  width: 88px;
+  height: 30px;
+  background-color: white;
+  color: #15202b;
+  text-align: center;
+  border-radius: 15px;
+}
+.follow p{
+  margin:  0;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.background{
+  margin-top: 20px;
+  padding-top: 1px;
+  background-color: rgb(25, 39, 52);
+  border-radius: 10px;
+}
